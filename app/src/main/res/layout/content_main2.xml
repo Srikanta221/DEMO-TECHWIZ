@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sample.kanta.demo.Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
+
+    <Button
+        android:id="@+id/a1"
+        android:layout_width="216dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+
+        android:text="Outdoor"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="218dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/a1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Work from home/"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/a4"
+        android:layout_width="218dp"
+        android:layout_height="74dp"
+        android:layout_below="@+id/a2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Internship"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="252dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Area of interest"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="6dp" />
+</RelativeLayout>

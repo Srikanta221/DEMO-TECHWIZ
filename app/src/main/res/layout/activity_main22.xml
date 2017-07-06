@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sample.kanta.demo.Main22Activity">
+
+    <Button
+        android:id="@+id/s20"
+        android:layout_width="238dp"
+        android:layout_height="94dp"
+        android:text="Carpenter"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/s21"
+        android:layout_alignEnd="@+id/s21"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:id="@+id/s21"
+        android:layout_width="236dp"
+        android:layout_height="86dp"
+        android:text="Painting"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="157dp"
+        android:layout_below="@+id/s20"
+        android:layout_alignLeft="@+id/s22"
+        android:layout_alignStart="@+id/s22"
+        android:layout_marginTop="56dp" />
+
+    <Button
+        android:id="@+id/s22"
+        android:layout_width="241dp"
+        android:layout_height="77dp"
+        android:text="Others"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="129dp" />
+</RelativeLayout>
